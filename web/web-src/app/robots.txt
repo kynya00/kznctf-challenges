@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: Second_part_flag = "_@11_"
