@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<div class="HomeContainer">
+    <h1>Домашняя страница записок</h1>
+    <h1>Привет, {{username}}!</h1>
+    <a href="{{url_for('index')}}"><button>Выход</button></a>
+    {% if flag %}
+        <h4>Возьми флаг:)</h4>
+        <h2>{{flag}}</h2>
+    {% else %}
+        <h4>Флажка тут нет:(</h4>
+    {% endif %}
+</div>
+
+
+{% endblock %}

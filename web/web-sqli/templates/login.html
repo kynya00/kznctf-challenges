@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="px-4 py-5 text-center">
+    <h1>Защищенные записки</h1>
+    <h5 class="text-white">Мои супер-пупер защищенные записки</h5>
+</div>
+
+<div>
+    <div class="form-signin">
+        <form method="POST" action="login">
+            <h2 class="h3 mb-3 fw-normal text-center text-capitalize">Пожалуйста, авторизуйтесь</h2>
+            <div class="mb-3">
+                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <input type="password" name="password" class="form-control" id="floatingPassword"
+                    placeholder="Password">
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Вход</button>
+            {% if error %}
+                <div class="error-message">{{ error }}</div>
+            {% endif %}
+        </form>
+    </div>
+</div>
+{% endblock %}
