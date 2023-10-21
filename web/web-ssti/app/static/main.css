@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://cinemaplex.ru/wp-content/uploads/2022/02/haker.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 2px solid #1f8566;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hackers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hackers-card {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #568392;
+    border-radius: 10px;
+}
+
+.hackers-card img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.hackers-card h2 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #746a6a;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    background-color: #a18a8a;
+    border-radius: 10px;
+    border: 2px solid #889aa0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poke-img img {
+    width: 200px;
+    margin: 20px 0;
+    border: 2px solid #3e6b7a;
+    border-radius: 10px;
+}
+
+.data {
+    background-color: rgba(126, 120, 120, 0.7);
+    border: 2px solid #578594;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+.data h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid h1 {
+    font-weight: bold;
+}
